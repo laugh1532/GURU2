@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_paperTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv_paperTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tv_paperAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv_paperAuthor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tv_paperPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv_paperPublisher"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tv_paperUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv_paperUrl"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tv_paperYymm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv_paperYymm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/tv_paperPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tv_paperPages"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="70px"
+            android:layout_height="70px"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/fui_transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="스터디룸 추천"
+            android:layout_marginTop="20dp"
+            android:paddingRight="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_studyroomLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="지역"
+        android:gravity="end"
+        android:paddingRight="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+    <ListView
+        android:id="@+id/studyroom_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0.5dp"
+        android:divider="#4085F4"
+        android:layout_weight="1"/>
+
+</LinearLayout>

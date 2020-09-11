@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#4085F4</item>
+        <item name="colorPrimaryDark">#1751AD</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/nanumButtonStyle</item>
+        <item name="android:textViewStyle">@style/nanumTextViewStyle</item>
+        <item name="android:editTextStyle">@style/nanumEditTextStyle</item>
+
+    </style>
+
+    <style name="nanumTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/nanumsquarer</item>
+    </style>
+
+    <style name="nanumButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/nanumsquarer</item>
+    </style>
+
+    <style name="nanumEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/nanumsquarer</item>
+    </style>
+
+</resources>
